@@ -36,9 +36,7 @@ calls up detailed information on the purpose and the calling syntax of the modul
 | [acf.m](acf.m)                  	| Plots the sample autocorrelation function of a univariate time series (using XCORR from the Matlab Signal Processing Toolbox)	|                                               | [adjph.m](adjph.m) 			| Multiplies a complex vector by a phase factor such that the real part and the imaginary part of the vector are orthogonal and the norm of the real part is greater than or equal to the norm of the imaginary part. ADJPH is required by ARMODE to normalize the eigenmodes of an AR model			|
 | [arconf.m](arconf.m)			| Computes approximate confidence intervals for the AR model coefficients 							|
 | [ardem.m](ardem.m)			| Demonstrates the use of modules contained in the ARfit package								|
-| [arfit.m](arfit.m)			| Stepwise selection of the order of an AR model and least squares estimation of AR model parameters                           	|
-| [arfit.pdf](arfit.pdf)		| Published description of the algorithms											|
-| [arfit_alg.pdf](arfit_alg.pdf)	| Published note on using ARfit													|
+| [arfit.m](arfit.m)			| Stepwise selection of the order of an AR model and least squares estimation of AR model parameters                        	|	
 | [armode.m](armode.m)			| Eigendecomposition of AR model. For a fitted AR model, ARMODE computes eigenmodes and their associated oscillation periods and damping times, as well as approximate confidence intervals for the eigenmodes, periods, and damping times									|
 | [arord.m](arord.m)			| Computes approximate order selection criteria for a sequence of AR models. ARORD is required by ARFIT				|
 | [arqr.m](arqr.m) 			| QR factorization for least squares estimation of AR model parameters. ARQR is required by ARFIT				|
